@@ -43,6 +43,7 @@ LABEL  authors="YD07"
 ENV DEBIAN_FRONTEND=noninteractive
 
 # create workspace
+RUN cd ../../
 RUN mkdir -p /ma_auto_aim/ros_ws/src
 RUN mkdir -p /ma_auto_aim/environment
 WORKDIR /ma_auto_aim/
